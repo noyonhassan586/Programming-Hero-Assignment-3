@@ -17,6 +17,8 @@
     </style>
     <!-- Tailwind Version 4 CDN -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Animation on Header -->
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 </head>
 
 <body class="adlam-display-regular">
@@ -57,19 +59,23 @@
     </nav>
     <!-- Hero/ Banner -->
     <section class="py-9 container mx-auto">
-        <div class="space-y-5 relative">
-            <h1 class="text-3xl md:text-5xl lg:text-7xl">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
-            <p class="text-base md:text-xl lg:text-2xl opacity-35">Discover a world of treats, toys, and essentials
-                handpicked
-                for<br>your
-                furry
-                friends. Shop
-                now and make tails
-                wag with joy!</p>
-            <button
-                class="btn bg-amber-300 rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">Find
-                a
-                pet</button>
+        <div class="flex">
+            <div class="space-y-5 relative">
+                <h1 class="text-3xl md:text-5xl lg:text-7xl">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
+                <p class="text-base md:text-xl lg:text-2xl opacity-35">Discover a world of treats, toys, and essentials
+                    handpicked
+                    for<br>your
+                    furry
+                    friends. Shop
+                    now and make tails
+                    wag with joy!</p>
+                <button
+                    class="btn bg-amber-300 rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">Find
+                    a
+                    pet</button>
+            </div>
+            <dotlottie-player src="https://lottie.host/7fdcc685-0314-4b3d-9263-546c3b776fdb/yvASbbrU0f.lottie"
+                background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
         </div>
         <img class="absolute max-lg:bottom-48 lg:bottom-8 -z-10" src="c1-assets/cat-big.png" alt="Banner Image">
     </section>
