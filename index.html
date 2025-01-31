@@ -21,7 +21,7 @@
 
 <body class="adlam-display-regular">
     <!-- Navbar For Small and Medium Devices -->
-    <nav class="w-full border-black border-b-2 h-16 flex items-center justify-between bg-red-100 lg:hidden">
+    <nav class="w-full border-black border-b-2 h-16 flex items-center justify-between bg-red-50 lg:hidden">
         <img class="w-10 h-10" src="c1-assets/logo-header.png" alt="Logo">
         <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path
@@ -29,7 +29,7 @@
         </svg>
     </nav>
     <!-- Navbar For Larger and More Devices -->
-    <nav class="lg:visible max-lg:hidden flex justify-around bg-red-100 items-center h-16">
+    <nav class="lg:visible max-lg:hidden flex justify-around bg-red-50 items-center h-16">
         <div class="flex gap-5 items-center">
             <img class="w-10 h-10" src="c1-assets/logo-header.png" alt="Logo">
             <h1>Browser<span class="text-yellow-500">4</span>Pets</h1>
@@ -40,7 +40,7 @@
             <li>Contact Us</li>
         </ul>
         <ul class="flex gap-5">
-            <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <svg class="w-6 fill-amber-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 <path
                     d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z" />
             </svg>
@@ -77,7 +77,7 @@
     <section class="py-9 container mx-auto mt-96">
         <h1 class="text-2xl md:text-4xl lg:text-5xl mb-20">Browser By Categories</h1>
         <div class="flex justify-center">
-            <div class="grid max-sm:grid-cols-2 grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+            <div class="grid max-sm:grid-cols-2 grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
                 <div class="w-44 h-56 bg-amber-200 flex flex-col justify-center items-center rounded-md space-y-2">
                     <img class="bg-white rounded-full p-5" src="c1-assets/dog-cartoon.png" alt="Dog Cartoon">
                     <h1 class="text-xl">Dog</h1>
@@ -112,166 +112,168 @@
     </section>
     <!-- Browser By Categories 2 -->
     <section class="w-full py-9 px-24 mx-auto bg-red-50">
-        <h1 class=" text-2xl md:text-4xl lg:text-5xl mb-9">Browser By Categories</h1>
-        <div class="w-full flex max-lg:flex-col justify-center items-center">
-            <div class="flex items-center justify-center">
-                <div class="w-96 h-96 bg-amber-200 rounded-lg p-6 space-y-4 relative">
-                    <h1 class="text-2xl">T-shirt For Dogs</h1>
-                    <p class="opacity-50 font-light">Discover a world of treats, toys, and<br>essentials
-                        handpicked
-                        for
-                    </p>
-                    <button
-                        class="btn bg-white rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">Shop
-                        Now</button>
-                    <img class="ml-36 bottom-6 absolute" src="c1-assets/cute-pet-small.png" alt="Cute Pet">
+        <div class="container mx-auto">
+            <h1 class=" text-2xl md:text-4xl lg:text-5xl mb-9">Browser By Categories</h1>
+            <div class="w-full flex max-lg:flex-col justify-center items-center">
+                <div class="flex items-center justify-center">
+                    <div class="w-96 h-96 bg-amber-200 rounded-lg p-6 space-y-4 relative">
+                        <h1 class="text-2xl">T-shirt For Dogs</h1>
+                        <p class="opacity-50 font-light">Discover a world of treats, toys, and<br>essentials
+                            handpicked
+                            for
+                        </p>
+                        <button
+                            class="btn bg-white rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">Shop
+                            Now</button>
+                        <img class="ml-36 bottom-6 absolute" src="c1-assets/cute-pet-small.png" alt="Cute Pet">
+                    </div>
                 </div>
-            </div>
-            <div class="w-full flex items-center justify-center">
-                <div
-                    class="w-full grid place-items-center max-sm:grid-cols-1 grid-cols-2 md:grid-cols-2 md:w-4/5 md:place-items-center lg:grid-cols-2 lg:w-full xl:grid-cols-3 xl:grid-rows-3 xl:w-full 2xl:grid-cols-3 2xl:grid-rows-3 2xl:w-full p-15 gap-5">
+                <div class="w-full flex items-center justify-center">
                     <div
-                        class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
-                        <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
-                        <div>
-                            <div class="flex gap-2">
-                                <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path
-                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-                                </svg>
-                                <p class="opacity-50">4.5</p>
+                        class="w-full grid place-items-center max-sm:grid-cols-1 grid-cols-2 md:grid-cols-2 md:w-4/5 md:place-items-center lg:grid-cols-2 lg:w-full xl:grid-cols-3 xl:grid-rows-3 xl:w-full 2xl:grid-cols-3 2xl:grid-rows-3 2xl:w-full p-15 gap-5">
+                        <div
+                            class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
+                            <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
+                            <div>
+                                <div class="flex gap-2">
+                                    <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                    </svg>
+                                    <p class="opacity-50">4.5</p>
+                                </div>
+                                <h1>Pet Bed</h1>
+                                <h2 class="opacity-70">$39.99</h2>
                             </div>
-                            <h1>Pet Bed</h1>
-                            <h2 class="opacity-70">$39.99</h2>
                         </div>
-                    </div>
-                    <div
-                        class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
-                        <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
-                        <div>
-                            <div class="flex gap-2">
-                                <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path
-                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-                                </svg>
-                                <p class="opacity-50">4.5</p>
+                        <div
+                            class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
+                            <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
+                            <div>
+                                <div class="flex gap-2">
+                                    <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                    </svg>
+                                    <p class="opacity-50">4.5</p>
+                                </div>
+                                <h1>Pet Bed</h1>
+                                <h2 class="opacity-70">$39.99</h2>
                             </div>
-                            <h1>Pet Bed</h1>
-                            <h2 class="opacity-70">$39.99</h2>
                         </div>
-                    </div>
-                    <div
-                        class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
-                        <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
-                        <div>
-                            <div class="flex gap-2">
-                                <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path
-                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-                                </svg>
-                                <p class="opacity-50">4.5</p>
+                        <div
+                            class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
+                            <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
+                            <div>
+                                <div class="flex gap-2">
+                                    <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                    </svg>
+                                    <p class="opacity-50">4.5</p>
+                                </div>
+                                <h1>Pet Bed</h1>
+                                <h2 class="opacity-70">$39.99</h2>
                             </div>
-                            <h1>Pet Bed</h1>
-                            <h2 class="opacity-70">$39.99</h2>
                         </div>
-                    </div>
-                    <div
-                        class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
-                        <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
-                        <div>
-                            <div class="flex gap-2">
-                                <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path
-                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-                                </svg>
-                                <p class="opacity-50">4.5</p>
+                        <div
+                            class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
+                            <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
+                            <div>
+                                <div class="flex gap-2">
+                                    <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                    </svg>
+                                    <p class="opacity-50">4.5</p>
+                                </div>
+                                <h1>Pet Bed</h1>
+                                <h2 class="opacity-70">$39.99</h2>
                             </div>
-                            <h1>Pet Bed</h1>
-                            <h2 class="opacity-70">$39.99</h2>
                         </div>
-                    </div>
-                    <div
-                        class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
-                        <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
-                        <div>
-                            <div class="flex gap-2">
-                                <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path
-                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-                                </svg>
-                                <p class="opacity-50">4.5</p>
+                        <div
+                            class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
+                            <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
+                            <div>
+                                <div class="flex gap-2">
+                                    <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                    </svg>
+                                    <p class="opacity-50">4.5</p>
+                                </div>
+                                <h1>Pet Bed</h1>
+                                <h2 class="opacity-70">$39.99</h2>
                             </div>
-                            <h1>Pet Bed</h1>
-                            <h2 class="opacity-70">$39.99</h2>
                         </div>
-                    </div>
-                    <div
-                        class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
-                        <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
-                        <div>
-                            <div class="flex gap-2">
-                                <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path
-                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-                                </svg>
-                                <p class="opacity-50">4.5</p>
+                        <div
+                            class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
+                            <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
+                            <div>
+                                <div class="flex gap-2">
+                                    <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                    </svg>
+                                    <p class="opacity-50">4.5</p>
+                                </div>
+                                <h1>Pet Bed</h1>
+                                <h2 class="opacity-70">$39.99</h2>
                             </div>
-                            <h1>Pet Bed</h1>
-                            <h2 class="opacity-70">$39.99</h2>
                         </div>
-                    </div>
-                    <div
-                        class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
-                        <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
-                        <div>
-                            <div class="flex gap-2">
-                                <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path
-                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-                                </svg>
-                                <p class="opacity-50">4.5</p>
+                        <div
+                            class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
+                            <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
+                            <div>
+                                <div class="flex gap-2">
+                                    <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                    </svg>
+                                    <p class="opacity-50">4.5</p>
+                                </div>
+                                <h1>Pet Bed</h1>
+                                <h2 class="opacity-70">$39.99</h2>
                             </div>
-                            <h1>Pet Bed</h1>
-                            <h2 class="opacity-70">$39.99</h2>
                         </div>
-                    </div>
-                    <div
-                        class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
-                        <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
-                        <div>
-                            <div class="flex gap-2">
-                                <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path
-                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-                                </svg>
-                                <p class="opacity-50">4.5</p>
+                        <div
+                            class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
+                            <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
+                            <div>
+                                <div class="flex gap-2">
+                                    <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                    </svg>
+                                    <p class="opacity-50">4.5</p>
+                                </div>
+                                <h1>Pet Bed</h1>
+                                <h2 class="opacity-70">$39.99</h2>
                             </div>
-                            <h1>Pet Bed</h1>
-                            <h2 class="opacity-70">$39.99</h2>
                         </div>
-                    </div>
-                    <div
-                        class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5">
-                        <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
-                        <div>
-                            <div class="flex gap-2">
-                                <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 576 512">
-                                    <path
-                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-                                </svg>
-                                <p class="opacity-50">4.5</p>
+                        <div
+                            class="border rounded-lg w-44 md:w-44 lg:w-44 xl:w-44 2xl:w-64 h-24 flex gap-3 items-center pl-5 max-lg:hidden">
+                            <img class=" bg-pink-100 rounded-lg p-3" src="c1-assets/pet-couch.png" alt="Pet Couch">
+                            <div>
+                                <div class="flex gap-2">
+                                    <svg class="w-4 fill-amber-400" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                    </svg>
+                                    <p class="opacity-50">4.5</p>
+                                </div>
+                                <h1>Pet Bed</h1>
+                                <h2 class="opacity-70">$39.99</h2>
                             </div>
-                            <h1>Pet Bed</h1>
-                            <h2 class="opacity-70">$39.99</h2>
                         </div>
                     </div>
                 </div>
@@ -279,42 +281,46 @@
         </div>
     </section>
     <!-- Everyday low Price -->
-    <section class="py-9 container mx-auto">
+    <section class="py-9 container mx-auto mb-48">
         <h1 class=" text-2xl md:text-4xl lg:text-5xl mb-9">Everyday Low Price</h1>
-        <div class="flex flex-col lg:flex-row gap-6 justify-center items-center">
+        <div class="max-lg:space-y-5 lg:flex lg:space-x-5">
             <div
-                class="w-96 lg:w-3/4 h-96 bg-gradient-to-r from-violet-400 to-purple-300 rounded-lg p-6 space-y-4 relative">
-                <p class="opacity-70">Under Price</p>
-                <h1 class="text-2xl">Pet Grooming Mitt</h1>
-                <p class="text-white max-lg:hidden">(Easy Hair Removal)</p>
-                <p class="font-bold text-5xl">$7.99
-                </p>
-                <img class=" w-52 ml-34 bottom-1 absolute" src="c1-assets/cute-dog-mid.png" alt="Cute Pet">
+                class="lg:w-3/4 bg-gradient-to-r from-violet-400 to-purple-300 rounded-lg flex flex-col justify-center items-center lg:flex-row lg:justify-around lg:items-center max-lg:p-6">
+                <div>
+                    <p class="opacity-70">Under Price</p>
+                    <h1 class="text-2xl">Pet Grooming</h1>
+                    <p class="text-white max-lg:hidden">(Easy Hair Removal)</p>
+                    <h1 class="font-bold text-5xl max-lg:text-white">$7.99</h1>
+                </div>
+                <div><img src="c1-assets/cute-dog-mid.png" alt="Cute Dog"></div>
             </div>
-            <div class="w-96 h-96 bg-gradient-to-r from-red-200 to-yellow-200 rounded-lg p-6 space-y-4 relative">
-                <h1 class="text-2xl">Pet Grooming Mitt</h1>
-                <p class="text-amber-500 font-bold text-5xl">$7.99
-                </p>
-                <img class=" w-56 ml-34 lg:ml-20 xl:ml-28 bottom-1 absolute" src="c1-assets/cute-pet-mid.png"
-                    alt="Cute Pet">
+            <div
+                class="bg-gradient-to-r from-amber-200 to-yellow-500 rounded-lg flex flex-col max-lg:items-center max-lg:p-6 lg:p-6">
+                <div>
+                    <h1 class="text-2xl">T-shirt for Dogs</h1>
+                    <h1 class="text-amber-500 font-bold text-5xl">$7.99</h1>
+                </div>
+                <div><img src="c1-assets/cute-pet-mid.png" alt=""></div>
             </div>
         </div>
     </section>
     <!-- Footer -->
-    <footer class="w-full h-250 bg-yellow-200 p-8 flex flex-col relative">
-        <div class="w-full flex items-center justify-center">
-            <div
-                class="w-96 lg:w-3/4 bg-red-50 rounded-lg p-5 space-y-6 flex flex-col lg:flex-row justify-center lg:justify-around items-center">
-                <img class="w-48" src="c1-assets/cute-pet-mid.png" alt="Cute Pet">
-                <div class="lg:flex lg:flex-col lg:gap-10">
-                    <h1 class="text-2xl">Pet Grooming Mitt</h1>
-                    <p class="text-slate-500 text-center lg:text-start">Exclusive training tips, tricks,
-                        product<br>deals and more.
-                    </p>
-                    <input class="border px-16 py-2 bg-white text-center rounded-lg" type="E-mail"
-                        placeholder="Enter email....">
-                    <button
-                        class="btn bg-amber-300 rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">Subscribe</button>
+    <footer class="w-full h-250 bg-yellow-200 flex flex-col relative">
+        <div class="container mx-auto relative">
+            <div class="w-full flex items-center justify-center absolute -bottom-40">
+                <div
+                    class="w-96 lg:w-3/4 bg-red-50 rounded-lg p-5 space-y-6 flex flex-col lg:flex-row justify-center lg:justify-around items-center">
+                    <img class="w-48" src="c1-assets/cute-pet-mid.png" alt="Cute Pet">
+                    <div class="lg:flex lg:flex-col lg:gap-10">
+                        <h1 class="text-2xl">Pet Grooming Mitt</h1>
+                        <p class="text-slate-500 text-center lg:text-start">Exclusive training tips, tricks,
+                            product deals and more.
+                        </p>
+                        <input class="border-none px-16 py-2 bg-white text-center rounded-lg" type="E-mail"
+                            placeholder="Enter email....">
+                        <button
+                            class="btn bg-amber-300 rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90 w-1/2 place-items-center">Subscribe</button>
+                    </div>
                 </div>
             </div>
         </div>
