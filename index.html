@@ -17,9 +17,6 @@
     </style>
     <!-- Tailwind Version 4 CDN -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <!-- DaisyUI Version 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="adlam-display-regular">
@@ -43,8 +40,10 @@
                 <path
                     d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
             </svg>
-            <button class="btn btn-outline btn-warning px-6">Login</button>
-            <button class="btn btn-warning px-8">Register</button>
+            <button
+                class="btn border-2 border-amber-300 rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">login</button>
+            <button
+                class="btn bg-amber-300 rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">Register</button>
         </ul>
         <svg class="w-10 h-10 lg:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path
@@ -53,69 +52,72 @@
     </nav>
     <!-- Hero/ Banner -->
     <section class="py-9 container mx-auto">
-        <div class="space-y-5">
+        <div class="space-y-5 relative">
             <h1 class="text-3xl md:text-5xl lg:text-7xl">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
-            <p class="text-base md:text-xl lg:text-2xl text-slate-400">Discover a world of treats, toys, and essentials
+            <p class="text-base md:text-xl lg:text-2xl opacity-35">Discover a world of treats, toys, and essentials
                 handpicked
                 for<br>your
                 furry
                 friends. Shop
                 now and make tails
                 wag with joy!</p>
-            <button class="btn btn-warning px-8 py-2 font-light">Find a pet</button>
+            <button
+                class="btn bg-amber-300 rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">Find
+                a
+                pet</button>
         </div>
-        <img src="c1-assets/cat-big.png" alt="Banner Image">
+        <img class="absolute h-auto bottom-70 -z-10" src="c1-assets/cat-big.png" alt="Banner Image">
     </section>
     <!-- Browser By Categories -->
-    <section class="py-9 container mx-auto">
-        <h1 class="text-2xl md:text-4xl lg:text-5xl mb-9">Browser By Categories</h1>
+    <section class="py-9 container mx-auto mt-96">
+        <h1 class="text-2xl md:text-4xl lg:text-5xl mb-20">Browser By Categories</h1>
         <div class="flex justify-center">
             <div class="grid max-sm:grid-cols-1 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
-                <div class="w-44 h-56 bg-yellow-400 flex flex-col justify-center items-center rounded-md space-y-2">
+                <div class="w-44 h-56 bg-amber-200 flex flex-col justify-center items-center rounded-md space-y-2">
                     <img class="bg-white rounded-full p-5" src="c1-assets/dog-cartoon.png" alt="Dog Cartoon">
                     <h1 class="text-xl">Dog</h1>
                     <p class="text-slate-600">3 items</p>
                 </div>
-                <div class="w-44 h-56 bg-yellow-400 flex flex-col justify-center items-center rounded-md space-y-2">
-                    <img class="bg-white rounded-full p-5" src="c1-assets/dog-cartoon.png" alt="Dog Cartoon">
-                    <h1 class="text-xl">Dog</h1>
+                <div class="w-44 h-56 bg-amber-200 flex flex-col justify-center items-center rounded-md space-y-2">
+                    <img class="bg-white rounded-full p-5" src="c1-assets/fish-cartoon.png" alt="Dog Cartoon">
+                    <h1 class="text-xl">Fish</h1>
                     <p class="text-slate-600">3 items</p>
                 </div>
-                <div class="w-44 h-56 bg-yellow-400 flex flex-col justify-center items-center rounded-md space-y-2">
-                    <img class="bg-white rounded-full p-5" src="c1-assets/dog-cartoon.png" alt="Dog Cartoon">
-                    <h1 class="text-xl">Dog</h1>
+                <div class="w-44 h-56 bg-amber-200 flex flex-col justify-center items-center rounded-md space-y-2">
+                    <img class="bg-white rounded-full p-5" src="c1-assets/cat-cartoon.png" alt="Dog Cartoon">
+                    <h1 class="text-xl">Cat</h1>
                     <p class="text-slate-600">3 items</p>
                 </div>
-                <div class="w-44 h-56 bg-yellow-400 flex flex-col justify-center items-center rounded-md space-y-2">
-                    <img class="bg-white rounded-full p-5" src="c1-assets/dog-cartoon.png" alt="Dog Cartoon">
-                    <h1 class="text-xl">Dog</h1>
+                <div class="w-44 h-56 bg-amber-200 flex flex-col justify-center items-center rounded-md space-y-2">
+                    <img class="bg-white rounded-full p-5" src="c1-assets/bird-cartoon.png" alt="Dog Cartoon">
+                    <h1 class="text-xl">Birds</h1>
                     <p class="text-slate-600">3 items</p>
                 </div>
-                <div class="w-44 h-56 bg-yellow-400 flex flex-col justify-center items-center rounded-md space-y-2">
-                    <img class="bg-white rounded-full p-5" src="c1-assets/dog-cartoon.png" alt="Dog Cartoon">
-                    <h1 class="text-xl">Dog</h1>
+                <div class="w-44 h-56 bg-amber-200 flex flex-col justify-center items-center rounded-md space-y-2">
+                    <img class="bg-white rounded-full p-5" src="c1-assets/mouse-cartoon.png" alt="Dog Cartoon">
+                    <h1 class="text-xl">Small Pet</h1>
                     <p class="text-slate-600">3 items</p>
                 </div>
-                <div class="w-44 h-56 bg-yellow-400 flex flex-col justify-center items-center rounded-md space-y-2">
-                    <img class="bg-white rounded-full p-5" src="c1-assets/dog-cartoon.png" alt="Dog Cartoon">
-                    <h1 class="text-xl">Dog</h1>
+                <div class="w-44 h-56 bg-amber-200 flex flex-col justify-center items-center rounded-md space-y-2">
+                    <img class="bg-white rounded-full p-5" src="c1-assets/rabbit-cartoon.png" alt="Dog Cartoon">
+                    <h1 class="text-xl">Rabbit</h1>
                     <p class="text-slate-600">3 items</p>
                 </div>
             </div>
-        </div>
-
     </section>
     <!-- Browser By Categories 2 -->
-    <section class="py-9 container mx-auto">
+    <section class="w-full py-9 px-24 mx-auto bg-red-50">
         <h1 class=" text-2xl md:text-4xl lg:text-5xl mb-9">Browser By Categories</h1>
         <div class="lg:flex">
             <div class="flex items-center justify-center">
-                <div class="w-96 h-96 bg-yellow-400 rounded-lg p-6 space-y-4 relative">
+                <div class="w-96 h-96 bg-amber-200 rounded-lg p-6 space-y-4 relative">
                     <h1 class="text-2xl">T-shirt For Dogs</h1>
                     <p class="text-slate-500 font-light">Discover a world of treats, toys, and<br>essentials handpicked
                         for
                     </p>
-                    <button class="btn bg-white px-8 py-2 font-light">Shop Now</button>
+                    <button
+                        class="btn bg-white rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">Shop
+                        Now</button>
                     <img class="ml-36 bottom-6 absolute" src="c1-assets/cute-pet-small.png" alt="Cute Pet">
                 </div>
             </div>
@@ -250,35 +252,42 @@
     <section class="py-9 container mx-auto">
         <h1 class=" text-2xl md:text-4xl lg:text-5xl mb-9">Everyday Low Price</h1>
         <div class="flex flex-col lg:flex-row gap-6 justify-center items-center">
-            <div class="w-96 lg:w-3/4 h-96 bg-yellow-400 rounded-lg p-6 space-y-4 relative">
+            <div
+                class="w-96 lg:w-3/4 h-96 bg-gradient-to-r from-violet-400 to-purple-300 rounded-lg p-6 space-y-4 relative">
                 <h1 class="text-2xl">Pet Grooming Mitt</h1>
                 <p class="text-slate-500 font-bold text-5xl">$7.99
                 </p>
                 <img class=" w-52 ml-34 bottom-1 absolute" src="c1-assets/cute-dog-mid.png" alt="Cute Pet">
             </div>
-            <div class="w-96 h-96 bg-yellow-400 rounded-lg p-6 space-y-4 relative">
+            <div class="w-96 h-96 bg-gradient-to-r from-red-200 to-yellow-200 rounded-lg p-6 space-y-4 relative">
                 <h1 class="text-2xl">Pet Grooming Mitt</h1>
                 <p class="text-slate-500 font-bold text-5xl">$7.99
                 </p>
-                <img class=" w-56 ml-34 bottom-1 absolute" src="c1-assets/cute-pet-mid.png" alt="Cute Pet">
+                <img class=" w-56 ml-34 lg:ml-20 xl:ml-28 bottom-1 absolute" src="c1-assets/cute-pet-mid.png"
+                    alt="Cute Pet">
             </div>
         </div>
     </section>
     <!-- Get Pawsome News! -->
-    <section class="py-9 container mx-auto">
+    <section class="py-9 w-full absolute z-10 max-sm:top-1170 top-855 md:top-780 lg:top-630 xl:top-545 2xl:top-570">
         <div class="w-full flex items-center justify-center">
-            <div class="w-96 bg-yellow-400 rounded-lg p-5 space-y-6 flex flex-col justify-center items-center">
+            <div
+                class="w-96 lg:w-3/4 bg-red-50 rounded-lg p-5 space-y-6 flex flex-col lg:flex-row justify-center lg:justify-around items-center">
                 <img class="w-48" src="c1-assets/cute-dog-mid.png" alt="Cute Pet">
-                <h1 class="text-2xl">Pet Grooming Mitt</h1>
-                <p class="text-slate-500 text-center">Exclusive training tips, tricks, product<br>deals and more.
-                </p>
-                <input class="border px-16 py-2 bg-white text-center rounded-lg" type="E-mail"
-                    placeholder="Enter email....">
-                <button class="btn btn-warning px-10 font-light">Subscribe</button>
+                <div class="lg:flex lg:flex-col lg:gap-10">
+                    <h1 class="text-2xl">Pet Grooming Mitt</h1>
+                    <p class="text-slate-500 text-center lg:text-start">Exclusive training tips, tricks,
+                        product<br>deals and more.
+                    </p>
+                    <input class="border px-16 py-2 bg-white text-center rounded-lg" type="E-mail"
+                        placeholder="Enter email....">
+                    <button
+                        class="btn bg-amber-300 rounded-lg px-8 py-2 font-extralight transition-transform active:scale-90">Subscribe</button>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="w-full h-250 bg-yellow-200 p-8 flex flex-col">
+    <footer class="w-full h-250 bg-yellow-200 p-8 flex flex-col relative">
         <div class="flex gap-5 mt-96 space-y-2">
             <img src="c1-assets/logo-footer.png" alt="Logo">
             <h1 class="text-3xl">Browser<span class="text-yellow-500">4</span>Pets</h1>
@@ -306,7 +315,6 @@
         </div>
 
     </footer>
-
 </body>
 
 </html>
