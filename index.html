@@ -14,6 +14,16 @@
         .adlam-display-regular {
             font-family: "ADLaM Display", serif;
         }
+
+        @keyframes scale-up {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.2);
+            }
+        }
     </style>
     <!-- Tailwind Version 4 CDN -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
@@ -59,7 +69,7 @@
     </nav>
     <!-- Hero/ Banner -->
     <section class="py-9 container mx-auto">
-        <div class="flex">
+        <div>
             <div class="space-y-5 relative">
                 <h1 class="text-3xl md:text-5xl lg:text-7xl">Pamper Your Pet,<br>Because They Deserve<br>the Bes</h1>
                 <p class="text-base md:text-xl lg:text-2xl opacity-35">Discover a world of treats, toys, and essentials
@@ -74,10 +84,12 @@
                     a
                     pet</button>
             </div>
-            <dotlottie-player src="https://lottie.host/7fdcc685-0314-4b3d-9263-546c3b776fdb/yvASbbrU0f.lottie"
+            <dotlottie-player class="-ml-20"
+                src="https://lottie.host/7fdcc685-0314-4b3d-9263-546c3b776fdb/yvASbbrU0f.lottie"
                 background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
         </div>
-        <img class="absolute max-lg:bottom-48 lg:bottom-8 -z-10" src="c1-assets/cat-big.png" alt="Banner Image">
+        <img class="absolute max-lg:bottom-48 lg:bottom-8 -z-10 animate-[scale-up_4s_infinite_alternate]"
+            src="c1-assets/cat-big.png" alt="Banner Image">
     </section>
     <!-- Browser By Categories -->
     <section class="w-full py-9 mt-100 max-lg:mt-70">
