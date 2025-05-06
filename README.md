@@ -40,13 +40,6 @@
 - **Tailwind CSS** – for rapid UI design and responsive layout
 
 ---
-
-## 📸 Screenshots
-
-> *(You can optionally add screenshots here using `![Alt Text](image-link)` if desired)*
-
----
-
 ## 🚀 Getting Started
 
 To run the project locally:
